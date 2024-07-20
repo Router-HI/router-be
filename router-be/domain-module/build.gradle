@@ -1,0 +1,10 @@
+bootJar { enabled = false }
+jar { enabled = false }
+
+dependencies {
+    // Infra Module Dependency
+    implementation project(":infra-module")
+
+}
+
+tasks.register("prepareKotlinBuildScriptModel"){}

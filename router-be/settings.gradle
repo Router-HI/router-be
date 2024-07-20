@@ -1,1 +1,6 @@
 rootProject.name = 'router-be'
+
+include 'api-module'
+include 'common-module'
+include 'domain-module'
+include 'infra-module'

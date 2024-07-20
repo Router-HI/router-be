@@ -1,0 +1,11 @@
+jar { enabled = false }
+
+dependencies {
+    // Common Module Dependency
+    implementation project(":common-module")
+
+
+    // MySQL Dependency
+}
+
+tasks.register("prepareKotlinBuildScriptModel"){}

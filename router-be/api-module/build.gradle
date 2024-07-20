@@ -1,0 +1,11 @@
+jar { enabled = false }
+
+dependencies {
+    // Domain Module Dependency
+    implementation project(":domain-module")
+
+    // MVC Dependency
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+tasks.register("prepareKotlinBuildScriptModel"){}
