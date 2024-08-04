@@ -4,6 +4,8 @@ jar { enabled = false }
 dependencies {
     // Infra Module Dependency
     implementation project(":infra-module")
+    // Common Module Dependency
+    implementation project(":common-module")
 
 }
 

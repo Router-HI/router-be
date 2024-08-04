@@ -36,5 +36,7 @@ out/
 ### VS Code ###
 .vscode/
 
-
-application.yml
+**/application.yml
+**/application-infra.yml
+**/application-domain.yml
+**/application-common.yml
