@@ -1,4 +1,4 @@
-package org.router.domainmodule.activity.dto.response;
+package org.router.commonmodule.dto.activity.response;
 
 import lombok.Builder;
 

@@ -1,4 +1,4 @@
-package org.router.domainmodule.member.dto.request;
+package org.router.commonmodule.dto.member.request;
 
 
 import jakarta.validation.constraints.NotEmpty;
