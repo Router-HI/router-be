@@ -2,6 +2,8 @@ bootJar { enabled = false }
 jar { enabled = true }
 
 dependencies {
+    // Swagger Dependency for Data Transfer Object
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
 
 }
 
