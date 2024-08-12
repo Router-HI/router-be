@@ -7,6 +7,8 @@ dependencies {
     // Common Module Dependency
     implementation project(":common-module")
 
+    // Validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
 }
 
 tasks.register("prepareKotlinBuildScriptModel"){}

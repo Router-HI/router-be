@@ -1,7 +1,7 @@
 <template>
     <header class="header">
-      <div class="logo">로고</div>
       <nav>
+        <div class="logo"><router-link to = "/"><img src = ''></router-link></div>
         <ul>
           <li><router-link to="/recruitment">채용</router-link></li>
           <li><router-link to="/portfolio">포트폴리오</router-link></li>
@@ -9,6 +9,7 @@
           <li><router-link to="/activity">대외활동</router-link></li>
         </ul>
       </nav>
+      
       <div class="user">
         <button v-if="isLoggedIn">내 정보</button>
         <button v-else>로그인</button>

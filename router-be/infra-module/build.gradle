@@ -7,8 +7,8 @@ dependencies {
     // MySQL Dependency
     runtimeOnly 'com.mysql:mysql-connector-j'
 
-    // JPA Dependency
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // JPA Dependency (Domain 모듈에서 사용이 필요하기에, api 설정)
+    api 'org.springframework.boot:spring-boot-starter-data-jpa'
 }
 
 tasks.register("prepareKotlinBuildScriptModel"){}
