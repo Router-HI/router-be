@@ -40,3 +40,5 @@ out/
 **/application-infra.yml
 **/application-domain.yml
 **/application-common.yml
+
+.DS_Store
