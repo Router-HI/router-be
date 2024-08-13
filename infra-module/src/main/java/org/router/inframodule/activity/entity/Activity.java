@@ -1,4 +1,4 @@
-package org.router.domainmodule.activity.aggregate;
+package org.router.inframodule.activity.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
