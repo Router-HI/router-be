@@ -1,4 +1,4 @@
-package org.router.domainmodule.member.enumerate;
+package org.router.commonmodule.enumerate;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

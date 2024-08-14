@@ -11,7 +11,7 @@ import org.hibernate.annotations.SQLDelete;
 @Table(name = "activity")
 @SQLDelete(sql = "UPDATE activity SET deleted_at = NOW() where activity_id = ?")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Activity {
+public class ActivityEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

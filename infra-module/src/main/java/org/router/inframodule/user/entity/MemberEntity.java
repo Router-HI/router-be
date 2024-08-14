@@ -1,4 +1,4 @@
-package org.router.domainmodule.member.aggregate;
+package org.router.inframodule.user.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -11,7 +11,7 @@ import org.hibernate.annotations.SQLDelete;
 @Table(name = "member")
 @SQLDelete(sql = "UPDATE member SET deleted_at = NOW() where member_id = ?")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Member {
+public class MemberEntity {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
